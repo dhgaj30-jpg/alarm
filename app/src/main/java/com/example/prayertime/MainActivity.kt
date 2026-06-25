@@ -17,11 +17,11 @@ class MainActivity : ComponentActivity() {
 
     private val notificationPermission = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
-    ) { }
+    ) { isGranted -> }
 
     private val locationPermission = registerForActivityResult(
         ActivityResultContracts.RequestMultiplePermissions()
-    ) { }
+    ) { isGranted -> }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

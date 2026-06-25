@@ -1,0 +1,65 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+WARNING: The option setting 'android.aapt2FromMavenOverride=/usr/bin/aapt2' is experimental.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugKotlin
+e: file:///home/test/.gradle/caches/8.8/transforms/1ec7634ea251265cab91eff561a7037e/transformed/jetified-adhan-jvm-0.0.7.jar!/META-INF/com.batoulapps.adhan_adhan.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.4.0, expected version is 2.0.0.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/alarm/AlarmRingingActivity.kt:23:43 Cannot access 'val RowColumnParentData?.weight: Float': it is internal in file.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/alarm/AlarmScheduler.kt:37:32 Unresolved reference 'displayTitle'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/alarm/AlarmScheduler.kt:49:51 Unresolved reference 'displayTitle'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:3:23 Unresolved reference 'adhan'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:4:23 Unresolved reference 'adhan'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:5:23 Unresolved reference 'adhan'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:6:23 Unresolved reference 'adhan'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:7:23 Unresolved reference 'adhan'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:8:23 Unresolved reference 'adhan'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:31:27 Unresolved reference 'Coordinates'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:34:34 Unresolved reference 'CalculationMethod'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:35:35 Unresolved reference 'CalculationMethod'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:36:33 Unresolved reference 'CalculationMethod'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:39:29 Unresolved reference 'parameters'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:40:22 Unresolved reference 'Madhab'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:41:33 Unresolved reference 'PrayerAdjustments'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:50:18 Unresolved reference 'DateComponents'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/data/PrayerTimeCalculator.kt:51:27 Unresolved reference 'PrayerTimes'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/ui/Screens.kt:25:43 Cannot access 'val RowColumnParentData?.weight: Float': it is internal in file.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/ui/Screens.kt:88:39 Unresolved reference 'KeyboardOptions'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/ui/Screens.kt:214:26 Unresolved reference 'PrayerTimesScreen'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/ui/Screens.kt:849:47 Unresolved reference 'KeyboardOptions'.
+e: file:///storage/internal_new/project/prayer_app_project/app/src/main/java/com/example/prayertime/ui/Screens.kt:860:47 Unresolved reference 'KeyboardOptions'.
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 57s
+14 actionable tasks: 1 executed, 13 up-to-date

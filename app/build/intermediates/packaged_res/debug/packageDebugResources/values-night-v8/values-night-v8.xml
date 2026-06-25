@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="http://schemas.android.com/tools">
-    <style name="Theme.PrayerTimeApp" parent="android:Theme.Material.NoActionBar">
-        <item name="android:statusBarColor">#07111D</item>
-        <item name="android:navigationBarColor">#07111D</item>
-        <item name="android:windowBackground">#07111D</item>
-        <item name="android:windowLightStatusBar" ns1:targetApi="23">false</item>
-    </style>
-</resources>

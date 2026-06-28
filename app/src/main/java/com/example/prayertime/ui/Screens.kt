@@ -1,6 +1,6 @@
 package com.example.prayertime.ui
 
-import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.ui.text.input.KeyboardOptions
 import android.content.Intent
 import android.net.Uri
 import android.os.Build

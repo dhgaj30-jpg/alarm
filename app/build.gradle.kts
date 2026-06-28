@@ -47,7 +47,7 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:21.3.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.7.1")
-    implementation("com.batoulapps.adhan:adhan2:0.0.7")
+    implementation("com.batoulapps.adhan:adhan2-jvm:0.0.6")
 
     debugImplementation("androidx.compose.ui:ui-tooling:1.7.4")
     implementation("androidx.multidex:multidex:2.0.1")

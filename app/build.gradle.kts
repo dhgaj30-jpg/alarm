@@ -32,7 +32,6 @@ android {
     }
 }
 
-    implementation("androidx.multidex:multidex:2.0.1")
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.activity:activity-compose:1.9.2")
@@ -51,6 +50,7 @@ dependencies {
     implementation("com.batoulapps.adhan:adhan2:0.0.7")
 
     debugImplementation("androidx.compose.ui:ui-tooling:1.7.4")
+    implementation("androidx.multidex:multidex:2.0.1")
 }
 
 

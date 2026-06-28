@@ -9,6 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
+        multiDexEnabled = true
         applicationId = "com.example.prayertime"
         minSdk = 26
         targetSdk = 34
@@ -31,6 +32,7 @@ android {
     }
 }
 
+    implementation("androidx.multidex:multidex:2.0.1")
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.activity:activity-compose:1.9.2")
